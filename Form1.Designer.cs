@@ -64,7 +64,7 @@
             this.helpToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
-            this.menuStripMain.Size = new System.Drawing.Size(1067, 28);
+            this.menuStripMain.Size = new System.Drawing.Size(1067, 30);
             this.menuStripMain.TabIndex = 0;
             // 
             // fileToolStripMenuItem
@@ -123,7 +123,7 @@
             this.dataGridViewPeople.Name = "dataGridViewPeople";
             this.dataGridViewPeople.ReadOnly = true;
             this.dataGridViewPeople.RowHeadersWidth = 51;
-            this.dataGridViewPeople.Size = new System.Drawing.Size(708, 526);
+            this.dataGridViewPeople.Size = new System.Drawing.Size(708, 524);
             this.dataGridViewPeople.TabIndex = 1;
             this.dataGridViewPeople.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPeople_CellContentClick);
             // 
@@ -135,7 +135,7 @@
             // splitContainerMain
             // 
             this.splitContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerMain.Location = new System.Drawing.Point(0, 28);
+            this.splitContainerMain.Location = new System.Drawing.Point(0, 30);
             this.splitContainerMain.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainerMain.Name = "splitContainerMain";
             // 
@@ -156,7 +156,7 @@
             // splitContainerMain.Panel2
             // 
             this.splitContainerMain.Panel2.Controls.Add(this.dataGridViewPeople);
-            this.splitContainerMain.Size = new System.Drawing.Size(1067, 526);
+            this.splitContainerMain.Size = new System.Drawing.Size(1067, 524);
             this.splitContainerMain.SplitterDistance = 354;
             this.splitContainerMain.SplitterWidth = 5;
             this.splitContainerMain.TabIndex = 2;
@@ -273,7 +273,7 @@
             this.MainMenuStrip = this.menuStripMain;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Reporting";
+            this.Text = "Eredmények";
             this.menuStripMain.ResumeLayout(false);
             this.menuStripMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPeople)).EndInit();
