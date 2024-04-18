@@ -67,6 +67,7 @@ namespace Eredmeny1
             if (openFileDialogPeople.ShowDialog() == DialogResult.OK)
             {
                 EredmenyRepository.Path = openFileDialogPeople.FileName;
+                EredmenyRepository.SkipHeader = true;
                 dataGridViewPeople.DataSource = EredmenyRepository.FindAll();
             }
         }
